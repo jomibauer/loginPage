@@ -1,10 +1,11 @@
 # loginPage
- 
+
+Simple login and welcome page, now with a logout button. Password is 'test'.
+ ------
 8/11/2020
 
--- Updated Application.cfm and welcome.cfm
+  -- Updated Application.cfm and welcome.cfm
 
--- added cgidump.cfm and drudge_report.cfm
+  -- added cgidump.cfm and drudge_report.cfm
  
- 
-Simple login and welcome page, now with a logout button. Password is 'test'.
+
