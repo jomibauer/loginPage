@@ -5,14 +5,14 @@ useragent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, 
 resolveurl=true
 >
 
-<cfset modifiedDrudge= REreplaceNoCase(CFHTTP.fileContent, 'HREF=(.+?)>', "href='https://www.mind-over-data.com'>", "ALL")>
+<cfset modifiedDrudge= REreplaceNoCase(CFHTTP.fileContent, 'HREF=(.+?)>', "href='https://www.mind-over-data.com'>", "ALL")> 
+
+<!--- <cfset modifiedDrudge= replaceNoCase(CFHTTP.fileContent, 'HREF="https://',  "href='http://www.mind-over-data.com?garbage=", "ALL")> --->
 
 
 <p>
-<img src="https://bing.com/th/id/OIP.O14ToU12fXdazcZFDGiSbQHaEL?w=289&h=180&c=7&o=5&pid=1.7">
 #modifiedDrudge#
 </p>
 
-<cfdump var="#cfhttp#">
 
 </cfoutput>
