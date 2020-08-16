@@ -1,0 +1,27 @@
+#submit-button {
+	position: absolute;
+	right:    5;
+	bottom:   5;
+}
+
+.logged {
+	position:relative;
+	background: #93E9BE;
+	max-width: 75%;
+	padding: 10px 10px;
+	display: block;
+	min-height: 10px;
+}
+
+.tab {
+	background: gray;
+	padding: 10px 10px;
+	text-transform: capitalize;
+}
+
+.selected-tab {
+	background: #93E9BE;
+	padding: 10px 10px;
+	border: 2px solid #93E9BE;
+	text-transform: capitalize;
+}

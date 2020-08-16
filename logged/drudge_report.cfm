@@ -1,5 +1,5 @@
 <cfoutput>
-<h1>Data over Drudge Report</h1>
+
 <cfhttp url="https://www.drudgereport.com/"
 useragent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36 Edg/84.0.522.59"
 resolveurl=true
@@ -10,9 +10,11 @@ resolveurl=true
 <!--- <cfset modifiedDrudge= replaceNoCase(CFHTTP.fileContent, 'HREF="https://',  "href='http://www.mind-over-data.com?garbage=", "ALL")> --->
 
 
-<p>
-#modifiedDrudge#
-</p>
+<div class="logged">
+	<h2>Data over Drudge Report</h2>
+<label>#modifiedDrudge#<label>
+</div>
+
 
 
 </cfoutput>

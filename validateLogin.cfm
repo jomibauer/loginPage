@@ -6,7 +6,7 @@ if (isDefined("form.userid") and len(trim(form.userid)) NEQ 0){
 
         Session.userid = form.userid
 	Session.isLoggedIn = True
-        location("welcome.cfm")
+        location("logged/welcome.cfm")
 	}
 }
 </cfscript>
