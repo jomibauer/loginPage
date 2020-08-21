@@ -13,6 +13,8 @@
 	min-height: 10px;
 }
 
+/* style elements for tab navigator */
+
 .tab {
 	background: gray;
 	padding: 10px 10px;
@@ -24,4 +26,26 @@
 	padding: 10px 10px;
 	border: 2px solid #93E9BE;
 	text-transform: capitalize;
+}
+
+/* ids and classes for displaying images on image_page.cfm */
+
+.img-box {
+	display: grid;
+}
+
+#pic {
+	
+	border: 2px solid black;
+	grid-column: 1;
+	grid-row: 1;
+	margin: auto;
+	max-height: 500px;
+	max-width: auto;
+}
+
+#pic-label {
+	grid-column: 1;
+	grid-row: 2;
+	margin: auto;
 }
