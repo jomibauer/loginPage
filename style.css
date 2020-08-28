@@ -1,3 +1,20 @@
+/* Stuff for the index/login page */
+.login-form{
+	display: block;
+	background: #93E9BE;
+	padding: 0px 20px 20px 20px;
+	width: 20%;
+	border: 5px solid #D1CECE;
+}
+.login-form input{
+	display: block;
+	margin-bottom: 5px;
+}  
+
+.error-msg{
+	color: #F54040;
+}
+
 #submit-button {
 	position: absolute;
 	right:    5;
@@ -26,6 +43,27 @@
 	padding: 10px 10px;
 	border: 2px solid #93E9BE;
 	text-transform: capitalize;
+}
+
+/* ids and classes for the image selection page */
+
+.form-style{
+	border: 2px solid #666;
+   	display: inline-block;
+    	padding: 6px 6px;
+    	background: #ccc;
+}
+
+.img-form{
+	display: block;
+}
+.img-form input{
+	display: block;
+	margin-bottom: 10px;
+}
+
+.tree-select{
+	margin-bottom: 10px;
 }
 
 /* ids and classes for displaying images on image_page.cfm */

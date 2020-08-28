@@ -9,17 +9,16 @@ if (isdefined("url.errormessage")){
 }
 </cfscript>
 
-<h2>#errorMsg#</h2>
-<h1>Please sign in</h1>
+<h3 class="error-msg">#errorMsg#</h3>
 
-<form action="validateLogin.cfm" method="POST">
-    <input type="text" name="userid" placeholder="UserID"><br>
-    <input type="text" name="password" placeholder="Password"><br>
+
+<form class="login-form" action="validateLogin.cfm" method="POST">
+    <h1>Please sign in</h1>
+    <input type="text" name="userid" placeholder="UserID">
+    <input type="password" name="password" placeholder="Password">
     <input type="submit">
 
 </form>
-
-<cfdump var=#Session#>
 
 
 </cfoutput>

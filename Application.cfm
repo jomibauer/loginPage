@@ -17,7 +17,7 @@ if (!isDefined("Session.isLoggedIn")){
 }
 
 <!--- if user has not logged in and tries to access a restricted screen, send back to login screen --->
-if (CGI.script_name != "/index.cfm" && CGI.script_name != "/validateLogin.cfm"){
+if (CGI.script_name != "/index.cfm" && CGI.script_name != "/validateLogin.cfm" && CGI.script_name != "/signUp.cfm" && CGI.script_name != "/validateNewUser.cfm"){
 
 	if (!Session.isLoggedIn){
 		location("/../index.cfm?errormessage=Please login first")
