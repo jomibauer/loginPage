@@ -2,6 +2,11 @@
 
 Simple login and welcome page, now with a logout button. Password is 'test'.
  ------
+8/28/2020
+  -- Added an image selector form and an image upload form.
+  
+  -- Added a button that downloads the current page and displays its html content in a PDF view.
+  
 8/16/2020
 
   -- Updated Application.cfm to include a tabbed navigation bar.
